@@ -63,6 +63,7 @@ function loadItems() {
 function addItem(e) {
     lsCheck();
     if(input.value === '') {
+        alert('Wpisz treść zadania');
         return;
     }
 
