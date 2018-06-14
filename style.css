@@ -1,0 +1,10 @@
+.delete-link {
+    color: peachpuff;
+    text-decoration: none;
+}
+
+.delete-link:hover {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}

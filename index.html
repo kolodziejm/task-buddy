@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+    <title>Task Buddy</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 text-center bg-light mx-auto mt-5 p-4">
+            <h1>Task Buddy</h1>
+            <hr>
+                <form class="form-group mt-3" id="form">
+                    <label for="task">Wpisz zadanie</label>
+                    <input type="text" id="task" class="form-control">
+                    <label for="exampleSelect1" class="mt-2">Priorytet</label>
+                    <select class="form-control" id="priority">
+                    <option>Najwyższy</option>
+                    <option>Średni</option>
+                    <option>Najniższy</option>
+                    </select>
+                    <input type="submit" value="Dodaj" class="btn btn-primary mt-3" id="submit">
+                </form>
+                <h2 class="mt-4">Do zrobienia</h2>
+                <hr>
+                <ul class="list-group">
+
+                </ul>
+                <button class="btn btn-outline-danger mt-5" id="delete-btn">Wyczyść zadania</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="app2.js"></script>
+</body>
+</html>
